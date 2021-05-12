@@ -1,0 +1,89 @@
+@font-face {
+    font-family: head;
+    src: url(EkorsNonCommercial.otf);
+}
+@font-face {
+    font-family: wolf;
+    src: url(wolf.otf);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 15px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-image: repeating-linear-gradient(purple,pink,aqua);
+    transition: 1s;
+    color: black;
+    border-radius: 15px;
+    
+  }
+
+  #active{
+      background-color: #e84c3d;
+  }
+
+  bi {
+    float: left;
+  }
+  
+  bi a {
+    display: block;
+    color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: purple;
+}
+
+#purple{
+    margin-left: 34%;
+    color: rgb(255, 164, 206);
+    font-family: head;
+}
+
+#box{
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    
+}
+
+#elytra{
+    float: left;
+}
+#trident{
+    margin-top: 50px;
+    float: right;
+}
+
+#elytrat{
+    font-family: wolf;
+}
+#tridentt{
+    margin-top: 50px;
+    float: left;
+    font-family: wolf;
+}
